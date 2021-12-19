@@ -1,0 +1,722 @@
+$textfont: 'Open Sans Condensed', sans-serif;
+$titlefont:  'Playfair Display', serif;
+$bgcolor: #F6F8FA;
+$blue: #0D234B;
+$important: #ddb75e;
+
+
+.body{
+    
+    background-color: $bgcolor;
+}
+.headerStyle{
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    
+    .navStyle{
+        background-color: $blue ;
+        margin: 0 auto;
+        padding: 1rem 0;
+        display: flex;
+        justify-content: space-around;
+        .aStyle{
+            text-decoration: none;
+            color: #FBF4E4;
+            font-family: $titlefont;
+        }
+}
+}
+
+.presentation{
+    height: 30rem;
+    width: 100%;
+    background-image: url(../assets/casa.jfif);
+    position: relative;
+    display: flex;
+   flex-direction: column;
+    align-items: center;
+    
+    .titlePres{
+        color: white;
+        position: relative;
+        z-index: 1;
+        text-align: center;
+        font-family: $titlefont;
+        font-size: 4rem;
+        margin-top: 8rem;
+    }
+    .titlePres2{
+        color: white;
+        position: relative;
+        z-index: 1;
+        text-align: center;
+        font-family: $titlefont;
+        font-size: 2.5rem;
+
+    }
+}
+.presentation::after{
+    content: '';
+        background-color: rgba(90, 90, 88, 0.7);
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+}
+
+.section1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+      
+        
+           
+   
+    
+        .title1{
+            color: $blue;
+            font-family: $titlefont;
+            margin-bottom: 2rem;
+
+        }
+        .subtitle1{
+            color: $blue;
+            font-family: $titlefont;
+            margin-bottom: 1rem;
+
+
+
+        }
+        .text1{
+            color: $blue;
+            font-family: $textfont;
+        }
+        .importantText{
+            font-size: 1.5rem;
+            color: $important;
+            font-family: $titlefont;
+        }
+    
+}
+
+.section2{
+    background-image: url(../assets/tamil.jpg);
+    height: 30rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5rem;
+    
+    .article2{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 3rem;   
+        height: 22rem;  
+       
+        background-color: $bgcolor;
+        
+
+        .title2{
+            color: $blue;
+            font-family: $titlefont;
+            margin-top: 3rem;
+            .importantText{
+                color: $important ;
+
+            }
+
+        }
+        .text2{
+            color: $blue;
+            font-family: $textfont;
+            margin-left: 1.5rem;
+            margin-top: 3rem; 
+            margin-right: 1.5rem;
+
+        }
+    }
+
+    .imgDiv{
+        margin-top: 3rem;
+       
+        
+        .img2{
+            width: 50rem;
+            height: 22rem;
+           
+    }
+ }
+}
+
+.section3{
+    background-image: url(../assets/contentcreator.jpg);
+    height: 30rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-top: 5rem;
+    
+    .article3{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 3rem;   
+        height: 22rem;  
+       
+        background-color: $bgcolor;
+        
+
+        .title3{
+            color: $blue;
+            font-family: $titlefont;
+            margin-top: 3rem;
+
+            .importantText{
+                color: $important;
+            }
+
+        }
+        .text3{
+            color: $blue;
+            font-family: $textfont;
+            margin-left: 1.5rem;
+            margin-top: 3rem; 
+            margin-right: 1.5rem;
+
+        }
+    }
+
+    .imgDiv{
+        margin-top: 3rem;
+       
+        
+        .img3{
+            width: 30rem;
+            height: 22rem;
+           
+    }
+ }
+}
+
+.sectionMiddle{
+    display: flex;
+    flex-direction: row;
+    background-color:#ECF0F3;
+    margin-top: 5rem;
+
+    .articleMiddle1{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 50%;
+
+        .titleMiddle{
+            color: $blue;
+            font-family: $titlefont;
+            margin-top: 3rem;
+
+            .importantText{
+                color: $important;
+            }
+
+        }
+        .textMiddle{
+            color: $blue;
+            font-family: $textfont;
+            margin-left: 1.5rem;
+            margin-top: 3rem; 
+            margin-right: 1.5rem;
+
+        }
+        
+    }
+
+    .articleMiddle2{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 50%;
+
+        .titleMiddle{
+            color: $blue;
+            font-family: $titlefont;
+            margin-top: 3rem;
+
+            .importantText{
+                color: $important;
+            }
+
+        }
+        .textMiddle{
+            color: $blue;
+            font-family: $textfont;
+            margin-left: 1.5rem;
+            margin-top: 3rem; 
+            margin-right: 1.5rem;
+
+        }
+        .importantText2{
+            color: $blue;
+            font-family: 'Quicksand', sans-serif;
+            margin-left: 1.5rem;
+            margin-top: 0.5rem; 
+            margin-right: 1.5rem;
+            margin-bottom: 1.5rem;
+           
+
+
+        }
+    }
+}
+
+.sectionForm{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    background-color: #ECF0F3;
+
+    
+
+    .articleForm{
+        width: 60%;
+        margin-top: 3.5rem;
+        margin-bottom: 3.5rem;
+        
+        .mb-3{
+            width: 100%;
+            text-align: center;
+            
+
+            .form-label{
+                font-family: $titlefont;
+                color: $blue;
+                font-size: 1.5rem;
+                
+            }
+            .form-control{
+                background-color: #ECF0F3 ;
+                -webkit-box-shadow: 0px 0px 33px -16px rgba(13,35,75,1);
+                -moz-box-shadow: 0px 0px 33px -16px rgba(13,35,75,1);
+                box-shadow: 0px 0px 33px -16px rgba(13,35,75,1);
+                
+            }
+            
+        }
+
+        
+        .btnClass{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    
+            .btn{
+                background-color: $important;
+                color: $bgcolor;
+                width: 30%;
+            }
+        }
+    }
+    
+    
+    
+}
+.section4{
+    background-image: url(../assets/miamibeach.jpg);
+    height: 30rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5rem;
+    
+    .article4{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 3rem;   
+        height: 22rem;  
+       
+        background-color: $bgcolor;
+        
+
+        .title4{
+            color: $blue;
+            font-family: $titlefont;
+            margin-top: 3rem;
+
+            .importantText{
+                color: $important;
+            }
+
+        }
+        .text4{
+            color: $blue;
+            font-family: $textfont;
+            margin-left: 1.5rem;
+            margin-top: 3rem; 
+            margin-right: 1.5rem;
+
+        }
+    }
+
+    .imgDiv{
+        margin-top: 3rem;
+       
+        
+        .img4{
+            width: 40rem;
+            height: 22rem;
+           
+    }
+ }
+}
+
+.carousel {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    .carousel-inner{
+        height: 30rem;
+    }
+}
+
+
+.section5{
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5rem;
+      
+
+    .article5{
+        display: flex;
+        flex-direction: column;
+        background-color: $bgcolor;
+        width: 95%;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        -webkit-box-shadow: 0px 0px 33px -11px rgba(13,35,75,1);
+        -moz-box-shadow: 0px 0px 33px -11px rgba(13,35,75,1);
+         box-shadow: 0px 0px 33px -11px rgba(13,35,75,1);
+        border-radius: 10px 10px 10px 10px;
+        -moz-border-radius: 10px 10px 10px 10px;
+        -webkit-border-radius: 10px 10px 10px 10px;
+        border: 0px solid #000000;
+       
+        
+        .title5{
+            text-align: center;
+            color: $blue;
+            font-family: $titlefont;
+            margin-bottom: 2rem;
+
+        }
+        .text5{
+            text-align: center;
+            color: $blue;
+            font-family: $textfont;
+            margin-left: 1.5rem;
+            margin-right: 1.5rem;
+        }
+    }
+}
+
+.footer{
+    background-color: #ECF0F3;
+    height: 17rem;
+    margin-top: 10rem;
+    
+   
+
+    .contactFooter{     
+        
+        display: flex;
+        justify-content: space-around;
+        
+       
+        .contactoLink{
+            color: $blue;
+            margin-top: 4rem;
+            
+        }
+    }
+
+    .footerTitleContainer{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+
+
+        .footerTitle{
+            font-family: $titlefont;
+            color: $blue;
+            margin-top: 3.2rem;
+            font-size: 2rem;
+            text-decoration: none;
+            
+        }
+
+        .footerText{
+            font-family: $textfont;
+            color: $blue;
+            font-size: 1.5rem;
+            margin-top: 1rem;
+
+        }
+    }
+}
+
+/*Mobile Styles */
+@media only screen and (max-width: 400px) {
+    
+    .headerStyle{
+       width: 100%;
+        
+      .navStyle{
+              
+          .aStyle{
+              font-size: 55%;
+              
+              
+          }
+      }
+    }
+    .presentation{
+        height: 13rem;
+        width: 100%;
+       
+        
+        .titlePres{
+            margin-top: 5rem;
+            font-size: 2rem;
+        }
+        .titlePres2{
+            font-size: 1.7rem;
+        }
+    }
+    .section1{
+        .title1{
+            font-size: 90%;
+            
+        }
+        .subtitle1{
+            font-size: 85%;
+        }
+        .text1{
+            font-size: 70%;
+        }
+    }
+    .section2{
+        margin-top: 4rem;        
+        display: flex;
+        flex-direction: column;
+
+        .article2{
+            
+            margin-bottom: 0.8rem;
+            margin-top: 1.2rem;
+            
+
+            .title2{
+                margin-top: 0.5rem;
+                font-size: 90%;
+                margin-left: 0.5rem;
+                margin-right: 0.5rem;
+            }
+            .text2{
+                width: 90%;
+               
+                margin-top: 0;
+                font-size: 70%;
+                text-align: center;
+            }
+            .importantText{
+                font-size: 80%;
+            }
+
+        }
+        .imgDiv{
+            margin-top: 0.3rem;
+
+            .img2{
+                width: 100%;
+                height: 75%;
+            }
+        }
+    }
+    .section3{
+        display: flex;
+        flex-direction: column;    
+        margin-top: 1rem;
+       
+        .article3{
+           
+            margin-bottom: 1rem;
+            margin-top: 1rem;
+
+           .title3{
+               margin-top: 0.5rem;
+               font-size: 90%;
+           }
+            .text3{
+                width: 90%;               
+                margin-top: 0;
+                font-size: 70%;
+                margin-left: 0.8rem;
+                margin-right: 0.5rem;
+            }
+
+        }
+        .imgDiv{
+            margin-top: 0;
+            margin-bottom: 1rem;
+            .img3{
+               
+                width: 100%;
+                height: 75%;
+            }
+        }
+    }
+
+.sectionMiddle{
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+    .articleMiddle1{
+        .titleMiddle{
+            font-size: 90%;
+        }
+        .textMiddle{
+            font-size: 65%;
+        }
+    }
+    .articleMiddle2{
+        .titleMiddle{
+            font-size: 90%;
+        }
+        .textMiddle{
+            font-size: 65%;
+        }
+        .importantText2{
+            font-size: 70%;
+        }
+    }
+}
+.sectionForm{
+    margin-top: 1rem;
+    .articleForm{
+        .mb-3{
+
+            .form-label{
+                font-size: 0.8rem;
+            }
+            .form-control{
+                height: 0.7rem;
+               
+                
+            }
+        }
+        .btnClass{
+                
+            .btn{
+                width: 40%;
+                font-size: 0.5rem;
+            }
+        }
+
+    }
+}
+.section4{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    .article4{
+        margin-top: 1.5rem;
+     
+        height: 13rem;
+        
+        .title4{
+            font-size: 80%;
+            margin-top: 0.5rem;
+        }
+    
+        .text4{
+            font-size: 70%;
+            margin-top: 0;
+            margin-left: 0.8rem;
+            margin-right: 0.5rem;
+        }
+    }
+
+    .imgDiv{
+        
+        margin-bottom: 2rem;
+        margin-top: 1rem;
+        .img4{
+            width: 100%;
+            height: 13rem;
+
+        }
+
+    }
+}
+.carousel {
+    margin-top: 3rem;
+    margin-bottom: 0;
+    .carousel-inner{
+        height: 15rem;
+    }
+   
+}
+
+.section5{
+    margin-top: 0;
+    margin-bottom: 0;
+
+    .article5{
+       
+
+        .title5{
+           font-size: 1.5rem;
+            margin-top: 0.5rem;
+          
+        }
+        .text5{
+            font-size: 80%;
+            margin-top: 0.5rem;
+        }
+    }
+}
+.footer{
+    margin-top: 1rem;
+    height: 10rem;
+    .contactFooter{
+        .contactoLink{
+            margin-top: 1rem;
+          
+        }
+    }
+
+    .footerTitleContainer{
+        .footerTitle{
+            font-size: 1rem;
+            margin-top: 1rem;
+    
+        }
+        .footerText{
+            font-size: 0.8rem;
+        }
+    }
+}
+    }
+
+   
+
+
+
