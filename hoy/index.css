@@ -1,0 +1,9 @@
+.customDiv{
+    background-image: url(../assets/tamil.jpg);
+    height: 30rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5rem;
+     }
+     
