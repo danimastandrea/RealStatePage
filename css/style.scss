@@ -99,7 +99,7 @@ $important: #ddb75e;
         .subtitle1{
             color: $blue;
             font-family: $titlefont;
-            margin-bottom: 1rem;
+            margin-bottom: 2rem;
 
 
 
@@ -107,6 +107,7 @@ $important: #ddb75e;
         .text1{
             color: $blue;
             font-family: $textfont;
+            font-weight: 500;
         }
         .importantText{
             font-size: 1.5rem;
@@ -139,7 +140,8 @@ $important: #ddb75e;
         .title2{
             color: $blue;
             font-family: $titlefont;
-            margin-top: 3rem;
+           
+            padding-top:50px;
             .importantText{
                 color: $important ;
 
@@ -152,6 +154,8 @@ $important: #ddb75e;
             margin-left: 1.5rem;
             margin-top: 3rem; 
             margin-right: 1.5rem;
+            font-weight: 500;
+            font-size: 20px;
 
         }
     }
@@ -200,7 +204,7 @@ $important: #ddb75e;
         .text3{
             color: $blue;
             font-family: $textfont;
-            
+            font-size: 20px;
             padding-left: 30px;
             padding-right: 30px;
             margin-top: 3rem; 
@@ -250,6 +254,7 @@ $important: #ddb75e;
             margin-left: 1.5rem;
             margin-top: 3rem; 
             margin-right: 1.5rem;
+            font-size: 20px;
 
         }
         
@@ -266,6 +271,7 @@ $important: #ddb75e;
             color: $blue;
             font-family: $titlefont;
             margin-top: 3rem;
+         
 
             .importantText{
                 color: $important;
@@ -278,6 +284,7 @@ $important: #ddb75e;
             margin-left: 1.5rem;
             margin-top: 3rem; 
             margin-right: 1.5rem;
+            font-size: 20px;
 
         }
         .importantText2{
@@ -368,7 +375,7 @@ $important: #ddb75e;
         .title4{
             color: $blue;
             font-family: $titlefont;
-            margin-top: 3rem;
+            padding-top: 5rem;
 
             .importantText{
                 color: $important;
@@ -382,6 +389,7 @@ $important: #ddb75e;
             margin-top: 3rem; 
             margin-right: 1.5rem;
             padding-bottom: 30px;
+            font-size: 20px;
         }
     }
 
@@ -418,7 +426,7 @@ $important: #ddb75e;
         display: flex;
         flex-direction: column;
         background-color: $bgcolor;
-        width: 95%;
+        width: 85%;
         margin-top: 2rem;
         margin-bottom: 2rem;
         -webkit-box-shadow: 0px 0px 33px -11px rgba(13,35,75,1);
@@ -428,6 +436,8 @@ $important: #ddb75e;
         -moz-border-radius: 10px 10px 10px 10px;
         -webkit-border-radius: 10px 10px 10px 10px;
         border: 0px solid #000000;
+        padding-top: 50px;
+        padding-bottom: 50px;
        
         
         .title5{
@@ -443,6 +453,7 @@ $important: #ddb75e;
             font-family: $textfont;
             margin-left: 1.5rem;
             margin-right: 1.5rem;
+            font-size: 20px;
         }
     }
 }
