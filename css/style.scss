@@ -4,6 +4,24 @@ $bgcolor: #F6F8FA;
 $blue: #0D234B;
 $important: #ddb75e;
 
+.fadeinleft{
+    opacity: 0;
+                transform: translateX(-100px);
+                animation: fade-in-left-animation 1s forwards;
+                
+                @keyframes fade-in-left-animation {
+                  0% {
+                    opacity: 0;
+                    transform: translateX(-100px);
+                  }
+                  100% {
+                    opacity: 1;
+                    transform: translateX(0);
+                  }
+                }
+}
+
+
 
 .body{
     
@@ -87,35 +105,43 @@ $important: #ddb75e;
             padding-left: 15px;
             padding-right: 15px;
            max-width: 1100px;
+        
+         
+       
+               .titulo1 {
+                   color: $blue;
+                   font-family: $titlefont;
+                   margin-bottom: 2rem;
+                   font-weight: 400;
+              
+              }
+              
+   
+           
+           .subtitle1 {
+               color: $blue;
+               font-family: $titlefont;
+               margin-bottom: 2rem;              
+                         
+                            
+            }
+   
+           }
+           .text1{
+               color: $blue;
+               font-family: $textfont;
+               font-weight: 500;
+           }
+           .importantText{
+               font-size: 1.5rem;
+               color: $important;
+               font-family: $titlefont;
+           }
+       
         }
    
     
-        .title1{
-            color: $blue;
-            font-family: $titlefont;
-            margin-bottom: 2rem;
 
-        }
-        .subtitle1{
-            color: $blue;
-            font-family: $titlefont;
-            margin-bottom: 2rem;
-
-
-
-        }
-        .text1{
-            color: $blue;
-            font-family: $textfont;
-            font-weight: 500;
-        }
-        .importantText{
-            font-size: 1.5rem;
-            color: $important;
-            font-family: $titlefont;
-        }
-    
-}
 
 .section2{
     background-image: url(../assets/tamil.jpg);
@@ -123,16 +149,26 @@ $important: #ddb75e;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 5rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+
+    &{
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     
+        @media only screen and (max-width: 768px) {
+            background-attachment:unset;
+        }
+    }
     .article2{
         display: flex;
         flex-direction: column;
         text-align: center;
-        margin-top: 3rem;   
+        height: 22rem;
         padding-bottom: 40px;
-        padding-left: 15px;
-        padding-right: 15px;
+       margin: auto;
        
         background-color: $bgcolor;
         
@@ -178,13 +214,26 @@ $important: #ddb75e;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
+    padding-top: 3rem;
     margin-top: 5rem;
-    padding-bottom: 20px;
+    padding-bottom: 4rem;
+  
+    &{
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+        @media only screen and (max-width: 768px) {
+            background-attachment:unset;
+        }
+    }
     .article3{
         display: flex;
         flex-direction: column;
         text-align: center;
-        margin-top: 3rem;   
+       padding-top: 3rem;
+       height: 22rem;;
         padding-bottom: 40px;
         padding-left: 15px;
         padding-right: 15px;
@@ -208,6 +257,7 @@ $important: #ddb75e;
             padding-left: 30px;
             padding-right: 30px;
             margin-top: 3rem; 
+            font-weight: 500;
             
         }
     }
@@ -229,7 +279,7 @@ $important: #ddb75e;
     flex-direction: row;
     background-color:#ECF0F3;
     margin-top: 5rem;
-
+  
     .articleMiddle1{
         display: flex;
         flex-direction: column;
@@ -359,7 +409,17 @@ $important: #ddb75e;
     flex-direction: row;
     justify-content: space-between;
     margin-top: 5rem;
+    padding-bottom: 3.5rem;
+    &{
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     
+        @media only screen and (max-width: 768px) {
+            background-attachment:unset;
+        }
+    }
     .article4{
         display: flex;
         flex-direction: column;
@@ -395,7 +455,7 @@ $important: #ddb75e;
 
     .imgDiv{
         margin-top: 3rem;
-       
+
         
         .img4{
             width: 40rem;
